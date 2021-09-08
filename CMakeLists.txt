@@ -20,3 +20,6 @@ project(cpp-debug
 	VERSION "${_TAG}")
 
 add_subdirectory(src)
+
+include(CTest)
+add_subdirectory(test)
